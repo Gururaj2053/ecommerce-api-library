@@ -1,7 +1,31 @@
 # E-commerce API Library
 
 ## Project Description
-This is a reusable backend API library built with Node.js and Express.js for small e-commerce applications. It includes features like authentication, CRUD operations, and MongoDB connectivity.
+A scalable and reusable backend API library for small-scale e-commerce applications, built using Node.js, Express.js, and MongoDB. Designed with features like product management, role-based access control, and secure authentication, this library is perfect for developers looking to bootstrap their e-commerce projects.
+
+## Features
+
+### Core Features
+- **Product Management**:
+  - CRUD operations for products.
+  - Advanced search and filtering.
+  - Pagination and sorting for seamless browsing.
+- **Category Management**:
+  - Organize products into categories.
+  - CRUD operations for categories.
+- **Order Management**:
+  - Track orders for users and admins.
+  - Order creation, updates, and deletion.
+
+### Security Features
+- **Role-Based Access Control (RBAC)**:  
+  - Separate admin and user functionalities.
+- **Authentication**:  
+  - Token-based authentication using **JSON Web Tokens (JWT)**.
+
+### Optimized Performance
+- Middleware-based architecture for request validation and error handling.
+- Query optimization for better performance with MongoDB.
 
 ## Installation Instructions
 1. Clone the repository:
